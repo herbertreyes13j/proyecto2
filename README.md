@@ -61,7 +61,9 @@ https://github.com/herbertreyes13j/proyecto2/blob/main/DiagramaER.jpg
 ## Modelo de datos
 
 Se obtuvo el siguiente diagrama definiendo el DW:
-https://github.com/herbertreyes13j/proyecto2/blob/main/DiagramaDW.png
+![Diagrama]([https://ejemplo.com/imagenes/gatito.jpg](https://raw.githubusercontent.com/herbertreyes13j/proyecto2/main/DiagramaDW.png))
+
+
 
 
 ## Procesamiento
