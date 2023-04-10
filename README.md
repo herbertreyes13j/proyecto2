@@ -77,11 +77,25 @@ La parte 2 es la construccion del DW desde la primera base de datos en postgres.
 
 ## Analitica
 
+### Preguntas de desarrollo
+
 1. ¿Cómo se relacionan las tablas "fact_sales" y "dim_customers" con las tablas de dimensiones "dim_location" y "dim_payment"?
 2. ¿Qué información adicional se almacena en la tabla "dim_customers" en comparación con la tabla "customers" del primer notebook?
 3. ¿Cómo se obtiene la URL de HOSTS para PostgreSQL y MySQL?
 4. ¿Qué tablas se obtienen y limpian de la base de datos de PostgreSQL?
 5. ¿Qué servicios de AWS se utilizan en el script?
+
+### Preguntas de Negocio
+
+1. ¿Cuál fue el producto más vendido en el supermercado?
+2. ¿En qué mes se registraron las ventas más altas en el supermercado?
+3. ¿Cuál es el promedio de gasto por compra en el supermercado?
+4. ¿Hay una diferencia significativa en las ventas de diferentes tiendas del supermercado?
+5. ¿Hay algún patrón estacional en las ventas de ciertos productos?
+
+
+
+
 
 
 
