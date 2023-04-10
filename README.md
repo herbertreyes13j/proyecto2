@@ -32,15 +32,15 @@ Se realizaron dos Notebooks:
 Primer Notebook: https://github.com/herbertreyes13j/proyecto2/blob/main/DDL_UNO.py
 Este notebook contiene un script de SQL que crea o define una estructura de base de datos relacional. La estructura de la base de datos está compuesta por 8 tablas, cada una con sus respectivos campos y relaciones con otras tablas.
 ###Las tablas creadas son:
-branch: que tiene dos campos (branch_id y branch) y es utilizada para almacenar información sobre sucursales.
-city: que tiene dos campos (city_id y city_name) y almacena información sobre ciudades.
-location: que tiene tres campos (location_id, branch_loc_id y city_loc_id) y es utilizada para relacionar sucursales con ciudades.
-product_line: que tiene dos campos (product_line_id y product_line_name) y almacena información sobre líneas de productos.
-payment: que tiene dos campos (payment_id y payment_type) y es utilizada para almacenar información sobre tipos de pago.
-customer_gender: que tiene dos campos (customergender_id y customer_gender) y almacena información sobre género de los clientes.
-customer_type: que tiene dos campos (customertype_id y customer_type) y almacena información sobre el tipo de cliente.
-customers: que tiene cuatro campos (customers_id, customer_name, type_customer_id y gender_customer_id) y es utilizada para almacenar información sobre los clientes y su género y tipo.
-sales: que tiene once campos (sale_id, sale_location_id, sale_payment_type_id, sale_product_line_id, sale_costumer_id, sale_date, sale_quantity, sale_unitprice, sale_taxes, sale_total y sale_gross_income) y es utilizada para almacenar información sobre las ventas realizadas, incluyendo la ubicación, el tipo de pago, la línea de producto, el cliente y otros detalles.
+1. branch: que tiene dos campos (branch_id y branch) y es utilizada para almacenar información sobre sucursales.
+2. city: que tiene dos campos (city_id y city_name) y almacena información sobre ciudades.
+3. location: que tiene tres campos (location_id, branch_loc_id y city_loc_id) y es utilizada para relacionar sucursales con ciudades.
+4. product_line: que tiene dos campos (product_line_id y product_line_name) y almacena información sobre líneas de productos.
+5. payment: que tiene dos campos (payment_id y payment_type) y es utilizada para almacenar información sobre tipos de pago.
+6. customer_gender: que tiene dos campos (customergender_id y customer_gender) y almacena información sobre género de los clientes.
+7. customer_type: que tiene dos campos (customertype_id y customer_type) y almacena información sobre el tipo de cliente.
+8. customers: que tiene cuatro campos (customers_id, customer_name, type_customer_id y gender_customer_id) y es utilizada para almacenar información sobre los clientes y su género y tipo.
+9. sales: que tiene once campos (sale_id, sale_location_id, sale_payment_type_id, sale_product_line_id, sale_costumer_id, sale_date, sale_quantity, sale_unitprice, sale_taxes, sale_total y sale_gross_income) y es utilizada para almacenar información sobre las ventas realizadas, incluyendo la ubicación, el tipo de pago, la línea de producto, el cliente y otros detalles.
 
 Segundo Notebook: https://github.com/herbertreyes13j/proyecto2/blob/main/DDL_DOS.py
 
@@ -48,11 +48,11 @@ El segundo notebook contiene un script de SQL que define una estructura de base 
 
 Las tablas definidas son:
 
-dim_location: que tiene tres campos (location_id, branch y city_name) y almacena información sobre la ubicación de las ventas, separando la información de sucursal y ciudad.
-dim_product_line: que tiene dos campos (product_line_id y product_line_name) y almacena información sobre las líneas de productos.
-dim_payment: que tiene dos campos (payment_id y payment_type) y almacena información sobre los tipos de pago.
-dim_customers: que tiene cuatro campos (customers_id, customer_name, customer_type y customer_gender) y almacena información sobre los clientes, separando su tipo y género.
-fact_sales: que tiene once campos (sale_id, sale_location_id, sale_payment_type_id, sale_product_line_id, sale_costumer_id, sale_date, sale_quantity, sale_unitprice, sale_taxes, sale_total y sale_gross_income) y almacena información sobre las ventas realizadas.
+1. dim_location: que tiene tres campos (location_id, branch y city_name) y almacena información sobre la ubicación de las ventas, separando la información de sucursal y ciudad.
+2. dim_product_line: que tiene dos campos (product_line_id y product_line_name) y almacena información sobre las líneas de productos.
+3. dim_payment: que tiene dos campos (payment_id y payment_type) y almacena información sobre los tipos de pago.
+4. dim_customers: que tiene cuatro campos (customers_id, customer_name, customer_type y customer_gender) y almacena información sobre los clientes, separando su tipo y género.
+5. fact_sales: que tiene once campos (sale_id, sale_location_id, sale_payment_type_id, sale_product_line_id, sale_costumer_id, sale_date, sale_quantity, 6. sale_unitprice, sale_taxes, sale_total y sale_gross_income) y almacena información sobre las ventas realizadas.
 
 Diagrama Entidad Relacion
 
@@ -75,11 +75,11 @@ La parte 2 es la construccion del DW desde la primera base de datos en postgres.
 
 ## Analitica
 
-¿Cómo se relacionan las tablas "fact_sales" y "dim_customers" con las tablas de dimensiones "dim_location" y "dim_payment"?
-¿Qué información adicional se almacena en la tabla "dim_customers" en comparación con la tabla "customers" del primer notebook?
-¿Cómo se obtiene la URL de HOSTS para PostgreSQL y MySQL?
-¿Qué tablas se obtienen y limpian de la base de datos de PostgreSQL?
-¿Qué servicios de AWS se utilizan en el script?
+1. ¿Cómo se relacionan las tablas "fact_sales" y "dim_customers" con las tablas de dimensiones "dim_location" y "dim_payment"?
+2. ¿Qué información adicional se almacena en la tabla "dim_customers" en comparación con la tabla "customers" del primer notebook?
+3. ¿Cómo se obtiene la URL de HOSTS para PostgreSQL y MySQL?
+4. ¿Qué tablas se obtienen y limpian de la base de datos de PostgreSQL?
+5. ¿Qué servicios de AWS se utilizan en el script?
 
 
 
