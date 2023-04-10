@@ -56,7 +56,7 @@ Las tablas definidas son:
 
 Diagrama Entidad Relacion
 
-https://github.com/herbertreyes13j/proyecto2/blob/main/DiagramaER.jpg
+![Diagrama](https://github.com/herbertreyes13j/proyecto2/blob/main/DiagramaER.jpg)
 
 ## Modelo de datos
 
