@@ -34,9 +34,9 @@ La segunda parte consiste en la elaboracion de las dimensiones y la tabla de hec
 El proyecto fue realizado en 2 partes. 
 #### Parte 1 
 La fase en toda la exploracion y transformacion de la informacion, ubicado en el archivo [proyecto_datapipelines.py](https://github.com/herbertreyes13j/proyecto2/blob/main/proyecto_data_pipelines.py) donde podemos observar toda la primera fase, desde la obtencion de la informacion desde diversas fuentes, y el procesamiento del archivo. 
-Para obtener una explicacion mas detallada se puede ver en el siguiente [VIDEO](https://drive.google.com/file/d/1TYe0RUGOzP_pEr1R4huYLJ65kU61BRph/view?usp=sharing)
+Para obtener una explicacion mas detallada se puede ver en el siguiente [VIDEO](https://drive.google.com/drive/folders/1urW117AeYEP5z8b7Seww-XBh4UJ4iNfn?usp=sharing)
 #### Parte 2
-La parte 2 es la construccion del DW desde la primera base de datos en postgres. Esta ya fue realizada en mysql y se construye en base a la transformacion de las tablas de la base anterior. En el archivo [dw.py](https://github.com/herbertreyes13j/proyecto2/blob/main/dw.py) se puede ver a detalle todo el script de esta fase y para la explicacion en el siguiente [VIDEO](https://drive.google.com/drive/folders/1urW117AeYEP5z8b7Seww-XBh4UJ4iNfn?usp=sharing)
+La parte 2 es la construccion del DW desde la primera base de datos en postgres. Esta ya fue realizada en mysql y se construye en base a la transformacion de las tablas de la base anterior. En el archivo [dw.py](https://github.com/herbertreyes13j/proyecto2/blob/main/dw.py) se puede ver a detalle todo el script de esta fase y para la explicacion en el siguiente [VIDEO](https://drive.google.com/file/d/1TYe0RUGOzP_pEr1R4huYLJ65kU61BRph/view?usp=sharing)
 
 ## Analitica
 
