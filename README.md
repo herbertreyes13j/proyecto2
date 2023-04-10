@@ -24,6 +24,7 @@ La segunda parte consiste en la elaboracion de las dimensiones y la tabla de hec
 ## Entregables 
 
 En nuestro zip puede encontrar dos partes 
+
 1. proyecto_datapipelines.ipynb Parte 1 [Haz clic aquí](https://github.com/herbertreyes13j/proyecto2/blob/main/proyecto_data_pipelines.py)
 se explica en el siguiente link: VIDEO [Haz clic aquí](https://drive.google.com/file/d/1TYe0RUGOzP_pEr1R4huYLJ65kU61BRph/view?usp=sharing)
 2. dw.ipynb Parte 2 [Haz clic aquí](https://github.com/herbertreyes13j/proyecto2/blob/main/dw.py)
