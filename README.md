@@ -31,7 +31,7 @@ Se realizaron dos Notebooks:
 
 Primer Notebook: https://github.com/herbertreyes13j/proyecto2/blob/main/DDL_UNO.py
 Este notebook contiene un script de SQL que crea o define una estructura de base de datos relacional. La estructura de la base de datos está compuesta por 8 tablas, cada una con sus respectivos campos y relaciones con otras tablas.
-###Las tablas creadas son:
+### Las tablas creadas son:
 1. branch: que tiene dos campos (branch_id y branch) y es utilizada para almacenar información sobre sucursales.
 2. city: que tiene dos campos (city_id y city_name) y almacena información sobre ciudades.
 3. location: que tiene tres campos (location_id, branch_loc_id y city_loc_id) y es utilizada para relacionar sucursales con ciudades.
@@ -46,7 +46,7 @@ Segundo Notebook: https://github.com/herbertreyes13j/proyecto2/blob/main/DDL_DOS
 
 El segundo notebook contiene un script de SQL que define una estructura de base de datos relacional. Esta estructura de base de datos está diseñada siguiendo el patrón de diseño dimensional, en el que se separan los datos en dimensiones y hechos.
 
-Las tablas definidas son:
+### Las tablas definidas son:
 
 1. dim_location: que tiene tres campos (location_id, branch y city_name) y almacena información sobre la ubicación de las ventas, separando la información de sucursal y ciudad.
 2. dim_product_line: que tiene dos campos (product_line_id y product_line_name) y almacena información sobre las líneas de productos.
